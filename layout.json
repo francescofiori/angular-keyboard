@@ -1,0 +1,53 @@
+[
+    {"row": [
+        {"value": "1", "action": "char"},
+        {"value": "2", "action": "char"},
+        {"value": "3", "action": "char"},
+        {"value": "4", "action": "char"},
+        {"value": "5", "action": "char"},
+        {"value": "6", "action": "char"},
+        {"value": "7", "action": "char"},
+        {"value": "8", "action": "char"},
+        {"value": "9", "action": "char"},
+        {"value": "0", "action": "char"}
+    ]},
+    {"row":[
+        {"value": "q", "action": "char"},
+        {"value": "w", "action": "char"},
+        {"value": "e", "action": "char"},
+        {"value": "r", "action": "char"},
+        {"value": "t", "action": "char"},
+        {"value": "y", "action": "char"},
+        {"value": "u", "action": "char"},
+        {"value": "i", "action": "char"},
+        {"value": "o", "action": "char"},
+        {"value": "p", "action": "char"}
+    ]},
+    {"row":[
+        {"value": "a", "action": "char"},
+        {"value": "s", "action": "char"},
+        {"value": "d", "action": "char"},
+        {"value": "f", "action": "char"},
+        {"value": "g", "action": "char"},
+        {"value": "h", "action": "char"},
+        {"value": "j", "action": "char"},
+        {"value": "k", "action": "char"},
+        {"value": "l", "action": "char"}
+    ]},
+    {"row":[
+        {"value": "z", "action": "char"},
+        {"value": "x", "action": "char"},
+        {"value": "c", "action": "char"},
+        {"value": "v", "action": "char"},
+        {"value": "b", "action": "char"},
+        {"value": "n", "action": "char"},
+        {"value": "m", "action": "char"}
+    ]},
+    {"row":[
+        {"value": "←", "action": "del"},
+        {"value": "@", "action": "char"},
+        {"value": ".", "action": "char"},
+        {"value": "-", "action": "char"},
+        {"value": "_", "action": "char"}
+    ]}
+]

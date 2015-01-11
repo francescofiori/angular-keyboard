@@ -1,0 +1,35 @@
+.btn{
+    background-color: gray;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.btnSpecial{
+    background-color: gray;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+}
+
+.btn:hover, .btnSpecial:hover{
+    background-color: aliceblue;
+}
+
+.keyboard-container{
+    display: inline-block;
+    text-align: center;
+}
+
+.keyboard-container ul{
+    padding-left: 0;
+}
