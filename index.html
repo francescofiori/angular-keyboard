@@ -1,37 +1,22 @@
 <!DOCTYPE html>
 <html ng-app="ngKeyboard">
-
 <head>
-    <meta charset="utf-8" />
-    <title>AngularJS Plunker</title>
-    <link href="style.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.16/angular.js"></script>
-    <script src="app.js"></script>
+    <script data-require="angular.js@*" data-semver="1.3.0-beta.5" src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
 </head>
-
 <body>
-<div ng-controller="MainDivCtrl">
-    <div class="keyboard-container">
-        <ul style="list-style-type: none;">
-            <li ng-repeat="row in layout.firstRow" class="btn" ng-click="keyPressed(row.value)">{{row.value}}</li>
-        </ul>
-        <ul style="list-style-type: none;">
-            <li ng-repeat="row in layout.secondRow" class="btn" ng-click="keyPressed(row.value)">{{row.value}}</li>
-        </ul>
-        <ul style="list-style-type: none;">
-            <li ng-repeat="row in layout.thirdRow" class="btn" ng-click="keyPressed(row.value)">{{row.value}}</li>
-        </ul>
-        <ul style="list-style-type: none;">
-            <li ng-repeat="row in layout.fourthRow" class="btn" ng-click="keyPressed(row.value)">{{row.value}}</li>
-        </ul>
-        <ul style="list-style-type: none;">
-            <li ng-repeat="row in layout.fifthRow" class="btnSpecial" ng-click="keyPressed(row.value)">{{row.value}}</li>
-        </ul>
+<div class="container">
+    <input type="text" my-text="" style="width: 100%"/>
+    <div ng-controller="MainDivCtrl">
+        <div class="keyboard-container">
+            <ul ng-repeat="row in layout" style="list-style-type: none;">
+                <li ng-repeat="element in row.row" class="btn" ng-click="keyPressed(element.value, element.action)">
+                    {{element.value}}
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
-
-<textarea my-text=""></textarea>
-
 </body>
-
 </html>
